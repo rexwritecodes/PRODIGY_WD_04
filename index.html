@@ -20,27 +20,49 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <div class="mobile-toggle" id="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   </header>
   <section id="home" class="hero">
     <div class="container">
       <h1>Hi, I'm Pranav</h1>
-      <p>A passionate Web Developer and Designer</p>
-      <a href="#projects" class="btn">View My Work</a>
+      <p>A student, problem solver & passionate creator — building intuitive UI/UX, modern websites, mobile apps, and graphics that speak.</p>
+            <a href="#projects" class="btn">View My Work</a>
     </div>
   </section>
-  <section id="about" class="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        Hello! I'm Pranav Panchwatkar, a B.Tech student specializing in Information Technology.
-        I have hands-on experience in web development, UI/UX design, and I’ve built some cool projects like AI-based travel planners, doctor appointment systems, AI recipe finder and much more..
-      </p>
-      <p>
-        I love transforming ideas into real-world applications and continuously learning about new tech like Web3 and AI integration.
-      </p>
-    </div>
-  </section>
+  <!-- About Me Section -->
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Me</h2>
+
+    <p>
+      I'm Pranav Panchwatkar, a B.Tech student in Information Technology, deeply passionate about building modern, meaningful digital products. I blend creativity with logic — from user interfaces to backend logic — to bring ideas to life.
+    </p>
+
+    <h3>My Journey</h3>
+    <p>
+      My journey began with curiosity — I loved breaking and rebuilding things digitally. After completing my diploma in Computer Engineering, I got hands-on with technologies like C, C++, Python, JavaScript, and gradually stepped into full-stack development and UI/UX design.
+    </p>
+
+    <h3>What I Love Working On</h3>
+    <ul class="about-list">
+      <li>Responsive websites with clean UI and smooth UX</li>
+      <li>Creative graphics and branding with tools like Figma & Adobe XD</li>
+      <li>Backend integration using Node.js and MongoDB</li>
+      <li>Smart apps using AI or automation logic</li>
+    </ul>
+
+    <h3>Current Focus</h3>
+    <p>
+      Right now, I’m sharpening my MERN stack skills, exploring Web3 and AI-powered apps, and working on real-world projects like an AI Travel Planner and Gemini-based Resume Builder.
+    </p>
+  </div>
+</section>
+
   <section id="skills" class="skills">
     <div class="container">
       <h2>My Skills</h2>
@@ -64,7 +86,7 @@
         <div class="skill-group">
           <h3>Tools & Design</h3>
           <ul>
-            <li>Figma, Adobe XD</li>
+            <li>Figma, Photoshop</li>
             <li>Git, GitHub</li>
             <li>Postman, VS Code</li>
           </ul>
@@ -72,5 +94,85 @@
       </div>
     </div>
   </section>
+  <!-- Projects Section -->
+<section id="projects" class="projects">
+  <div class="container">
+    <h2>My Projects</h2>
+    <div class="project-list">
+
+      <div class="project-card">
+        <h3>Li-Fi Communication</h3>
+        <p>Transmitted audio through light using a basic electronic setup, showcasing high-speed optical transmission.</p>
+        <p><strong>Tech:</strong> Electronics, Analog Circuits</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Doctor Appointment System</h3>
+        <p>Web app that allows users to book, cancel, and manage doctor appointments efficiently.</p>
+        <p><strong>Tech:</strong> PHP, MySQL, HTML/CSS</p>
+        <a href="https://github.com/rexwritecodes" target="_blank" class="project-link">View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Travel Planner Site</h3>
+        <p>Travel Planner site that shows travel plans.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <a href="https://github.com/rexwritecodes" target="_blank" class="project-link">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Recipe Finder with AI</h3>
+        <p>A web app that suggests recipes based on ingredients using AI, with a minimal interface and smart results.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript, Gemini AI API</p>
+        <a href="https://github.com/rexwritecodes/recipeFinderWithAI" target="_blank" class="project-link">View on GitHub</a>
+      </div>
+      
+      <div class="project-card">
+        <h3>smarTour – AI Travel Guide</h3>
+        <p>An AI-powered travel planning site that generates trips based on your destination, budget, days, and preferences.</p>
+        <p><strong>Tech:</strong> Node.js, MongoDB, HTML/CSS, GeminiAi API</p>
+        <a href="https://github.com/rexwritecodes/smartour" target="_blank" class="project-link">View on GitHub</a>
+      </div>
+      
+      <div class="project-card">
+        <h3>Resume Builder with AI</h3>
+        <p>A simple, ATS-friendly resume builder powered by Google Gemini — with no login, one template, and local storage.</p>
+        <p><strong>Tech:</strong> JavaScript, Gemini API, HTML/CSS</p>
+        <a href="https://github.com/rexwritecodes/gemini-resume-builder" target="_blank" class="project-link">View on GitHub</a>
+      </div>
+      
+
+    </div>
+  </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>Whether it’s a collaboration, opportunity, or a quick hello — my inbox is always open. Don’t hesitate to reach out!</p>
+    
+    <div class="contact-info">
+      <p><strong>Email:</strong> work.pranav@outlook.in</p>
+      <p><strong>Location:</strong> Nagpur, India</p>
+    </div>
+
+    <!-- Optional Contact Form -->
+    <form class="contact-form" action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 rex. All rights reserved.</p>
+    
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
