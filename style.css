@@ -60,7 +60,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 70px; /* to avoid header overlap */
+  padding-top: 70px; 
 }
 .hero {
   height: 100vh;
@@ -70,7 +70,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 70px; /* to avoid header overlap */
+  padding-top: 70px; 
 }
 
 
@@ -248,7 +248,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 70px; /* to avoid header overlap */
+  padding-top: 70px; 
 }
 
 .contact h2 {
@@ -356,9 +356,9 @@ body {
   transition: 0.3s ease;
 }
 
-/* -------------------- */
+
 /* Mobile Responsiveness */
-/* -------------------- */
+
 
 
 @media (max-width: 768px) {
@@ -380,7 +380,7 @@ body {
   }
 
   .main-nav.active {
-    max-height: 300px; /* enough space for menu items */
+    max-height: 300px;
   }
 
   .nav-links {

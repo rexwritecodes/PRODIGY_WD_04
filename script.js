@@ -1,4 +1,4 @@
-// Smooth Scroll for nav links
+// nav active ui
 const navLinks = document.querySelectorAll('.nav-links a');
 
 navLinks.forEach(link => {
@@ -9,16 +9,15 @@ navLinks.forEach(link => {
 
     if (targetSection) {
       window.scrollTo({
-        top: targetSection.offsetTop - 60, // Adjust for header height
+        top: targetSection.offsetTop - 60, 
         behavior: 'smooth'
       });
     }
   });
 });
 
-// Active link highlighting on scroll
 window.addEventListener('scroll', () => {
-  const scrollPosition = window.scrollY + 100; // Offset for better accuracy
+  const scrollPosition = window.scrollY + 100; 
 
   navLinks.forEach(link => {
     const section = document.querySelector(link.getAttribute('href'));
@@ -30,7 +29,9 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// Mobile nav toggle
+
+
+// toggle button for mobile navigation
 const toggleBtn = document.getElementById('mobile-toggle');
 const nav = document.querySelector('.main-nav');
 
@@ -39,7 +40,7 @@ toggleBtn.addEventListener('click', () => {
   nav.classList.toggle('active');
 });
 
-// Close menu on nav item click (for better UX)
+// Close menu on nav item click  
 document.querySelectorAll('.nav-links a').forEach(link => {
   link.addEventListener('click', () => {
     toggleBtn.classList.remove('active');
